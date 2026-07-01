@@ -11,4 +11,6 @@ void main() {
   middleName ??= 'N/A';
   print('Middle name before assignment: $middleName');
   
+  middleName ??= 'Something else';
+  print('Middle name after second assignment: $middleName');
 }
